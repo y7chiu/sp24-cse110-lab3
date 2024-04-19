@@ -2,6 +2,19 @@
 <html lang="en">
   <head>
     <title>CSE110 Brainstorming Meeting</title>
+     <style>
+    /* Define a CSS variable with a fallback */
+    :fallback {
+      --primary-color: yellow;
+    }
+    /* Use the variable with a fallback */
+    .btn {
+      padding: 10px 20px;
+      color: var(--primary-color, yellow); /* Use the primary color variable with a fallback */
+      background-color: var(--primary-color, yellow); /* Use the primary color variable with a fallback */
+      border-radius: 5px;
+    }
+  </style>
   </head>
   <body>
     <h1 style="color: blue;/* Change title color */ font-size: 20px;">CSE110 Brainstorming Meeting</h1>
@@ -87,5 +100,6 @@
     <audio controls autoplay>
     <source src="2.mp3">
     </audio>
+      <button class="btn for info">Click Me</button>
   </body>
 </html>
