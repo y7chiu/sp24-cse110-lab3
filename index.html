@@ -14,9 +14,13 @@
       background-color: var(--primary-color, yellow); /* Use the primary color variable with a fallback */
       border-radius: 5px;
     }
+        
+  /*Background*/
     p {
       color: blue;
     }
+        
+  /*Box Model*/
     .box-long {
             margin-top: 20px;
             margin-right: 10px;
@@ -50,6 +54,7 @@
             border-radius: 15px;
         }
         
+/*Text-Style*/  
 .text-color {
     color: yellow;
 }
@@ -59,7 +64,14 @@
 .text-align {
     text-align: center;
 }
-        
+
+/*Display*/
+.display-block {
+    display: block;
+}
+.display-inline-block {
+    display: inline-block;
+}
   </style>
   </head>
   <body style="background-color: silver;">
@@ -76,8 +88,8 @@
     <h4>attendance list:</h4>
 
      <ul>
-     <li>Frankie Chiu</li>
-     <li>Aaron</li>
+     <div class="display-block"><li>Frankie Chiu</li></div>
+     <span class="display-inline-block"><li>Aaron</li></span>
      <li>Alex Turco</li>
      <li>Esther Xiong</li>
      <li>Ethan Shih</li>
@@ -151,7 +163,7 @@
       Click Me
     </button>
 
-    <div class="text-decoration">This is something that we discuss so far!.</div>
+    <div class="text-decoration">This is something that we discuss so far!</div>
     <div class="text-align">--END OF MEETING--</div>
   </body>
 </html>
