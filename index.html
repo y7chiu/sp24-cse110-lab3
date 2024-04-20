@@ -54,7 +54,7 @@
     color: yellow;
 }
 .text-decoration {
-    text-decoration: line-through;
+    text-decoration: underline;
 }
 .text-align {
     text-align: center;
@@ -65,12 +65,12 @@
   <body style="background-color: silver;">
     <h1 style="color: blue;/* Change title color */ font-size: 20pt;">CSE110 Brainstorming Meeting</h1>
     <p>
-      This the the recording of the meeting! Feel free to want the recording if you were not attending the meeting or you want to check for the further notes. 
+      <div class="box-border"> This the the recording of the meeting! Feel free to want the recording if you were not attending the meeting or you want to check for the further notes. </div>
       <span style="opacity: 0;"></span>
     </p>
     <h2 style="color: green;/* Change Dates color */ font-size: 1pc;">Dates</h2>
     <p>
-      dates: 
+       <div class="pading-short">dates: </div>
     </p>
     <div class="attendance list">
     <h4>attendance list:</h4>
@@ -101,7 +101,7 @@
     
     <h2 style="color: green;/* Change Check-ins color */ font-size: 20px;>check-ins</h2>
     <p>
-      Names: 
+     <div class="text-color"> Names: </div>
     </p>
 
     <div class="Unfinished Business from Last Meeting">
@@ -124,11 +124,11 @@
     
     <h2 style="color: green;/* Change brainstorming color */ font-size: 20px;>Brainstorming</h2>
     <p>
-      Ideas: 
+      <div class="pading-long">Ideas: </div>
     </p>
     <h2>Documentation</h2>
     <p>
-      Recordings: 
+      <div class="box-auto">Recordings: </div>
     </p>
     <h2>Questions/Concerns</h2>
     <p>
@@ -139,7 +139,7 @@
     <h2>Video of Today's Meeting</h2>
     <video width="320" height="240" src="1.mov" controls>
       <p>
-        Just for demo.
+        <div class="box-short">Just for demo.</div>
       </p>
     </video>
     <h2>Audio of Today's Meeting</h2>
@@ -151,14 +151,7 @@
       Click Me
     </button>
 
-    <div class="box-long">longhand margin</div>
-    <div class="box-short">shorthand margin</div>
-    <div class="box-auto">auto margin</div>
-    <div class="pading-long">longhand padding</div>
-    <div class="pading-short">shorthand padding</div>
-    <div class="box-border">border of box</div>
-    <div class="text-color">yellow.</div>
-    <div class="text-decoration">line-through.</div>
-    <div class="text-align">centered.</div>
+    <div class="text-decoration">This is something that we discuss so far!.</div>
+    <div class="text-align">--END OF MEETING--</div>
   </body>
 </html>
